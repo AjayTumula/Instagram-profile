@@ -26,11 +26,13 @@ i {
     display: flex;
     padding: 0.8rem;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .profileInfo img {
     border-radius: 50%;
+    height: 90px;
+    width: 90px;
 }
 
 .profileStats {
