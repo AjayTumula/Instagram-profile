@@ -1,8 +1,4 @@
 
-// let namesArray = ["Akash", "Aswhini", "Maala", "Ram", "Hanuman"]
-
-
-
 var random = Math.floor(Math.random() * 100 + 1);
 
 document.querySelector('.numOfPosts').innerHTML = random;
@@ -23,7 +19,7 @@ for(let i =0; i < random;i++){
     img.src = "https://picsum.photos/9" + i;
 
     document.querySelector('.posts').append(img);
-}
+} 
 
 
 
